@@ -1,10 +1,8 @@
 {
-  "presets": [
-    "es2015", "react", ["env", {
-      "targets": {
-        "node": 8.0
-      }
-    }]
-  ],
+  "presets": ["react", "es2015", ["env", {
+    "targets": {
+      "node": "current"
+    }
+  }]],
   "plugins": ["transform-object-rest-spread"]
 }
